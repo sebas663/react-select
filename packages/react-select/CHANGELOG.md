@@ -1,5 +1,11 @@
 # react-select
 
+## 4.2.0
+
+### Minor Changes
+
+- [2ffed9c6](https://github.com/JedWatson/react-select/commit/2ffed9c6c40c9d5b81d7c8faf7bfc995976299ec) [#4444](https://github.com/JedWatson/react-select/pull/4444) Thanks [@Rall3n](https://github.com/Rall3n)! - Use accessor props to get value and label in `compareOption`
+
 ## 4.1.0
 
 ### Minor Changes
