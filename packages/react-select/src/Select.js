@@ -1508,21 +1508,7 @@ export default class Select extends Component<Props, State> {
 
     if (!isSearchable) {
       // use a dummy input to maintain focus/blur functionality
-      return (
-        <DummyInput
-          id={id}
-          innerRef={this.getInputRef}
-          onBlur={this.onInputBlur}
-          onChange={noop}
-          onFocus={this.onInputFocus}
-          readOnly
-          disabled={isDisabled}
-          tabIndex={tabIndex}
-          form={form}
-          value=""
-          {...ariaAttributes}
-        />
-      );
+      return null;
     }
 
     const { cx, theme, selectProps } = this.commonProps;
